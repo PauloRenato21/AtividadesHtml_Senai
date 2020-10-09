@@ -1,0 +1,204 @@
+<html>
+    <head>
+        <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+        <title>6 Atividade | Paulo</title>
+        <style>
+            /* estilos do menu do cabeçalho*/
+            nav{
+                text-align: center;
+            }
+             .menu ul li{
+                float: left;
+                width: 250px;
+                list-style-type: none;
+            }
+            
+            /*cursor do botão*/
+            .botao li button{
+                cursor: pointer;
+            }
+            /*estilo icone perfil*/
+            img{
+                background-color: lightblue;
+                border-radius: 100%;
+                height: 100px;
+                object-fit: cover;
+                width: 100px;  
+            }
+        </style>
+    </head>
+
+    <body>
+        <!--Menu de Cabeçalho-->
+        <nav class="menu">
+            <ul class="botao">
+                <li><a href="Atividade 1.html"  title="Atividade 1"><button>Atividade 1</button></a></li>
+                <li><a href="Atividade 2.html"  title="Atividade 2"><button>Atividade 2</button></a></li>
+                <li><a href="Atividade 3.html"  title="Atividade 3"><button>Atividade 3</button></a></li>
+                <li><a href="Atividade 4.html"  title="Atividade 4"><button>Atividade 4</button></a></li>
+                <li><a href="Atividade 6.html"  title="Atividade 5"><button>Atividade 5</button></a></li>
+            </ul>
+        </nav>
+
+        <br/>
+        <br/>
+        
+        <h1 align="center"><font face="arial"><i>Cadastro de Usúario</i></font></h1>
+    
+        <div class="perfil" align="center">
+            <img src="imagem/icone.png" alt="icone" />
+        </div>
+        
+        <br/>
+        <br/>
+
+        <form method="POST">
+            <table border="0" cellpadding="5" align="center">
+                <tr>
+                    <td>
+                    <label for="nome">Nome:</label> 
+                    </td>
+                    <td>
+                        <input type="text" id="nome" name="nome" size="30" placeholder="Digite seu nome" />
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="email">E-mail:</label>
+                    </td>
+                    <td>
+                        <input type="email" id="email" name="email" size="30" placeholder="Digite seu email" />
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="cel">Celular:</label>
+                    </td>
+                    <td>
+                        <input type="text" id="cel" name="cel" size="30" maxlength="12" placeholder="Ex: (00) 0000-0000"/>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="data">Data de Nascimento:</label>
+                    </td>
+                    <td>
+                        <input type="date" id="data" name="data">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>Gênero:</label>
+                    </td>
+                    <td>
+                        <input type="radio" id="genero" name="genero" value="masculino" />
+                        <label for="genero">Masculino</label>
+
+                        <input type="radio" id="genero" name="genero" value="feminino" />
+                        <label for="genero">Feminino</label>
+                    
+                        <input type="radio" id="genero" name="genero" value="outros" />
+                        <label for="genero">Outros</label>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <label>Estado:</label>
+                    </td>
+                    <td>
+                        <select id="estado" name="estado">
+                            <option value="" selected="selected">-------- Selecione --------</option>
+                        <optgroup label="Sudeste">
+                                <option value="MG">Minas Gerais</option>   
+                                <option value="SP">São Paulo</option>   
+                                <option value="RJ">Rio de Janeiro</option>   
+                                <option value="ES">Espírito Santo</option>   
+                            </optgroup>
+                            <optgroup label="Nordeste">
+                                <option value="BA">Bahia</option>   
+                                <option value="PE">Pernambuco</option>   
+                                <option value="CE">Ceará</option>
+                                <option value="AL">Alagoas</option> 
+                                <option value="MA"> Maranhão</option> 
+                                <option value="PB"> Paraíba</option>
+                                <option value="PI">Piauí</option>
+                                <option value="RN">Rio Grande do Norte</option>
+                                <option value="SE">Sergipe</option>
+                            </optgroup>
+                            <optgroup label="Sul">
+                                <option value="PR">Paraná</option>
+                                <option value="SC">Santa Catarina</option>
+                                <option value="RS">Rio Grande do Sul</option>
+                            </optgroup>
+                            <optgroup label="Centro-Oeste">
+                                <option value="GO">Goiás</option>
+                                <option value="DF">Distrito Federal</option>
+                                <option value="MT">Mato Grosso</option>
+                                <option value="MS">Mato Grosso Sul</option>
+                            </optgroup>
+                            <optgroup label="Norte">
+                                <option value="AM">Amazonas</option>
+                                <option value="PA">Pará</option>
+                                <option value="AC">Acre</option>
+                                <option value="AP">Amapá</option>
+                                <option value="RO">Rondônia</option>
+                                <option value="RR">Roraima</option>
+                                <option value="TO">Tocantins</option>
+                            </optgroup>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="user">Usúario:</label>
+                    </td>
+                    <td>
+                        <input type="text" id="user" name="user" size="30" maxlength="10" placeholder="Nome do usúario"/>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="senha">Nova Senha:</label>
+                    </td>
+                    <td>
+                        <input type="password" id="senha" name="senha" size="30" maxlength="10" placeholder="Digite uma senha"/>
+                    </td>
+                </tr>
+                
+                <tr>
+                    <td>
+                        <label>Área de interesse:</label>
+                    </td>
+                    <td>
+                        <input type="checkbox" id="educacao" name="educacao" value="educacao"/>
+                        <label for="educacao">Educação</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        
+                        <input type="checkbox" id="market" name="market" value="market"/>
+                        <label for="market">Marketing</label><br/><br/>
+
+                        <input type="checkbox" id="engenh" name="engenh" value="engenh"/>
+                        <label for="engenh">Engenharia</label>&nbsp;&nbsp;&nbsp;&nbsp;
+
+                        <input type="checkbox" id="financa" name="financa" value="financa"/>
+                        <label for="financa">Finanças</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="mensag">Habilidades <br/>Profissionais:</label>
+                    </td>
+                    <td>
+                        <textarea cols="50" rows="5" id="mensag" name="mensag" placeholder="Fale suas Habilidades!"></textarea>
+                    </td>
+                </tr>
+                <th colspan="2">
+                    <br/>
+                    <input type="submit" id="enviar" name="enviar" value="Enviar"/>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <input type="reset" id="limpar" name="limpar" value="Resetar" />
+                </th>
+            </table>
+        </form>
+    </body>
+</html>
