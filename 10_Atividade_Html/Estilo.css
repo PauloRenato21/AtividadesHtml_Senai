@@ -1,0 +1,75 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+    text-decoration: none;
+    list-style: none;
+    vertical-align:baseline;
+}
+
+body {
+    background-color: #336677;
+}
+
+div {
+    border: 1px solid #000;
+}
+
+#geral {
+    width: 960px;
+    background-color: rgba(109, 228, 200, 0.6);
+    margin: auto;
+    margin-top: 10px;    
+    border-radius: 20px; 
+}
+
+#topo {
+    width:900px;
+    height:240px;
+    margin-left:30px;
+    margin-top:10px;
+    background-color:rgba(145, 220, 230, 0.6);
+    border-radius:20px;
+  }
+
+#menu {
+    width: 900px;
+    height: 60px;
+    background-color: rgba(145, 189, 234, 0.6);
+    margin-left: 30px;
+    margin-top: 10px;
+    border-radius:20px;
+}
+
+#lateral {
+    float: left; 
+    width: 200px;
+    height: 700px;
+    background-color: rgba(123, 200, 240, 0.6);
+    margin-left: 30px;
+    margin-top: 10px;
+    border-radius:20px;  
+}
+
+#conteudo {
+    float:right;  
+    width: 670px;
+    height: 700px;
+    background-color: rgba(98, 145, 240, 0.8);
+    margin-right: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius:20px;
+}
+
+#rodape {
+    width: 900px;
+    height: 50px;
+    background-color: rgba(99, 251, 200, 0.7);
+    margin-left: 30px;
+    clear: both; /* limpa o left e o ritgh - para que a lateral e o conteúdo fiquem um ao lado do outro dentro do geral*/
+    margin-bottom: 10px;
+    border-radius:20px;
+}
