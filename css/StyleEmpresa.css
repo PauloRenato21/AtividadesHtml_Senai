@@ -1,0 +1,87 @@
+@charset "utf-8";
+
+    /*Reset da Página*/
+*{
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+}
+
+    /*Margem Página*/
+body{
+    margin-right: 150px;
+    margin-left: 150px;
+}
+    /*-------------*/
+
+    /*Estilo Menu Suspenso*/
+table.MenuSuperior{
+    background-color: gray;
+}
+
+table.MenuSuperior tr td{
+    width: 400px;
+    height: 30px;
+    padding: 3px 0px;
+    text-align: center;
+}
+
+table.MenuSuperior tr td a{
+    color: white;
+}
+
+a:link{
+    text-decoration: none;
+}
+
+table.MenuSuperior tr td a:hover{
+    color: black;
+    font-weight: bolder;
+    text-decoration: underline;
+}
+    /*-------------*/
+
+    /*Estilo Banner*/
+div.poster table tr td{
+    width: 400px;
+}
+
+    /*Icones Sociais*/
+div.poster table tr td#IconesSociais{
+    text-align: center;
+}
+
+    /*Margem Numero*/
+div.poster table tr td#Numero p{
+    margin-left: 70px;
+}
+
+hr{
+    border: 2px solid gray;
+}
+
+    /*Caixa do Texto*/
+div.texto{
+    width: 50%;
+    text-align: justify;
+    float: left;
+}
+
+div.texto h1{
+    font-family: Georgia;
+    font-size: 28px;
+    font-style: italic;
+}
+p.paragrafo{
+    text-indent: 3ch;
+}
+
+    /*Caixa da Foto*/
+div.ExemploFoto{
+    margin: 40px 50px 0px 0px;
+    float: right;
+}
+
+div.ExemploFoto img{
+    border-radius: 4px;
+}
