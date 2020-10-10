@@ -15,7 +15,7 @@ body{
     /*-------------*/
 
     /*Estilo Menu Suspenso*/
-table.MenuSuperior{
+table.MenuSuperior, table.MenuSuperior2{
     background-color: gray;
 }
 
@@ -26,7 +26,7 @@ table.MenuSuperior tr td{
     text-align: center;
 }
 
-table.MenuSuperior tr td a{
+table.MenuSuperior tr td a, table.MenuSuperior2 tr td a{
     color: white;
 }
 
@@ -34,7 +34,7 @@ a:link{
     text-decoration: none;
 }
 
-table.MenuSuperior tr td a:hover{
+table.MenuSuperior tr td a:hover, table.MenuSuperior2 tr td a:hover{
     color: black;
     font-weight: bolder;
     text-decoration: underline;
@@ -44,7 +44,6 @@ table.MenuSuperior tr td a:hover{
     /*Estilo Banner*/
 div.poster table tr td{
     width: 400px;
-    /* border: 1px solid black; */
 }
 
     /*Icones Sociais*/
@@ -56,3 +55,11 @@ div.poster table tr td#IconesSociais{
 div.poster table tr td#Numero p{
     margin-left: 70px;
 }
+
+    /*Estilo Menu Superior 2*/
+table.MenuSuperior2 tr td{
+    text-align: center;
+    width: 350px;
+    height: 30px;
+}
+
