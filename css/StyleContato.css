@@ -15,6 +15,7 @@ body{
 }
     /*-------------*/
 
+
     /*Estilo Menu Suspenso*/
 table.MenuSuperior{
     background-color: gray;
@@ -42,6 +43,7 @@ table.MenuSuperior tr td a:hover{
 }
     /*-------------*/
 
+
     /*Estilo Banner*/
 div.poster table tr td{
     width: 400px;
@@ -59,6 +61,29 @@ div.poster table tr td#Numero p{
 
 hr{
     border: 2px solid gray;
+}
+
+
+    /*Confi Float*/
+div.formulario form{
+    float: left;
+}
+
+div.Foto{
+    float: right;
+    margin: 10px 50px 0px 0px;
+}
+
+div.formulario{
+    overflow: hidden;
+}
+    /*--------*/
+
+    
+div.formulario h2{
+    font-family: Georgia;
+    font-size: 28px;
+    font-style: italic;
 }
 
     /*Estilo do campo input*/
@@ -101,4 +126,8 @@ div.formulario table input.botao{
 div.formulario table input.botao:hover{
     background-color: black;
     color: white;
+}
+
+div.Foto img{
+    border-radius: 4px;
 }
