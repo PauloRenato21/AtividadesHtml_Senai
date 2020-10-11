@@ -59,3 +59,21 @@ div.poster table tr td#Numero p{
 hr{
     border: 2px solid gray;
 }
+
+    /*Estilo do campo input*/
+div.formulario table tr td input{
+    border: 1px solid black;
+    width: 400px;
+    height: 20px;
+    outline: none;
+}
+
+  /*Distancia tr's*/
+div.formulario table tr{
+    height: 40px;
+}
+
+div.formulario table ::placeholder{
+    color: gray;
+}
+
