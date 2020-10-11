@@ -3,7 +3,7 @@
     <head>
         <meta charset="UTF-8"/>
         <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-        <link rel="stylesheet" type="text/css" href="css/StyleContato.css">
+        <link rel="stylesheet" type="text/css" href="css/StyleContato.css"/>
         <title>Estúdios Flash</title>
     </head>
     <body>
@@ -65,7 +65,7 @@
                             <label for="nome">Nome:</label>
                         </td>
                         <td>
-                            <input type="text" id="nome" name="nome" placeholder=" Digite seu nome">
+                            <input type="text" id="nome" name="nome" placeholder=" Digite seu nome*">
                             
                         </td>
                     </tr>
@@ -74,7 +74,7 @@
                             <label for="email">Email:</label>
                         </td>
                         <td>
-                            <input type="email" id="email" name="email" placeholder=" Digite seu e-mail">
+                            <input type="email" id="email" name="email" placeholder=" Digite seu e-mail*">
                         </td>
                     </tr>
                     <tr>
@@ -82,11 +82,24 @@
                             <label for="tel">Celular:</label>
                         </td>
                         <td>
-                            <input type="tel" id="tel" name="tel" placeholder=" Digite seu número">
+                            <input type="tel" id="tel" name="tel" placeholder=" Digite seu número*">
                         </td>
                     </tr>
+                    <table>
+                        <tr>
+                            <td>
+                                <textarea name="coment" id="coment" placeholder="Mensagem*"></textarea>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <input class="botao" type="submit" id="enviar" name="enviar" value="Enviar">
+                                <input class="botao" type="reset" id="resetar" name="resetar" value="Apagar">
+                            </td>
+                        </tr>
+                    </table>
                 </table>
-            </form>
+            </form>            
         </div>
     </body>
 </html>
