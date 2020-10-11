@@ -67,7 +67,7 @@ div.texto{
     float: left;
 }
 
-div.texto h1{
+div.texto h2{
     font-family: Georgia;
     font-size: 28px;
     font-style: italic;
@@ -77,11 +77,17 @@ p.paragrafo{
 }
 
     /*Caixa da Foto*/
-div.ExemploFoto{
+div.Foto{
     margin: 40px 50px 0px 0px;
+    width: 310px;
     float: right;
 }
 
-div.ExemploFoto img{
+div.Foto img{
     border-radius: 4px;
 }
+
+div.Pai{
+    overflow: hidden;
+}
+
