@@ -71,6 +71,7 @@ div.texto h2{
     font-family: Georgia;
     font-size: 28px;
     font-style: italic;
+    text-decoration: underline;
 }
 p.paragrafo{
     text-indent: 3ch;
