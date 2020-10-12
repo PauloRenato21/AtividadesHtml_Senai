@@ -62,3 +62,13 @@ div.poster table tr td#Numero p{
 hr{
     border: 2px solid gray;
 }
+
+    /*Efeitos Fotos*/
+div.GaleriaFotos{
+    margin-left: 70px;
+    margin-right: 70px;
+}
+
+div.GaleriaFotos img{
+    border-radius: 4px;
+}
