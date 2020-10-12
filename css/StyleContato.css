@@ -84,6 +84,7 @@ div.formulario h2{
     font-family: Georgia;
     font-size: 28px;
     font-style: italic;
+    text-decoration: underline;
 }
 
     /*Estilo do campo input*/
