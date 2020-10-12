@@ -63,10 +63,16 @@ hr{
     border: 2px solid gray;
 }
 
+    /*Estilo Titulo*/
+h2{
+    font-family: Georgia;
+    font-size: 28px;
+    font-style: italic;
+}
+
     /*Efeitos Fotos*/
 div.GaleriaFotos{
     margin-left: 70px;
-    margin-right: 70px;
 }
 
 div.GaleriaFotos img{
