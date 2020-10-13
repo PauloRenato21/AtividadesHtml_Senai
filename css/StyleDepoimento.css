@@ -6,3 +6,107 @@
     padding: 0px;
     border: 0px;
 }
+
+    /*Margem Página*/
+ body{
+    margin-right: 150px;
+    margin-left: 150px;
+}
+    /*-------------*/
+
+    /*Estilo Menu Suspenso*/
+table.MenuSuperior, table.MenuSuperior2{
+    background-color: gray;
+}
+
+table.MenuSuperior tr td{
+    width: 400px;
+    height: 30px;
+    padding: 3px 0px;
+    text-align: center;
+}
+
+table.MenuSuperior tr td a, table.MenuSuperior2 tr td a{
+    color: white;
+}
+
+a:link{
+    text-decoration: none;
+}
+
+table.MenuSuperior tr td a:hover, table.MenuSuperior2 tr td a:hover{
+    color: black;
+    font-weight: bolder;
+    text-decoration: underline;
+}
+    /*-------------*/
+
+    /*Estilo Banner*/
+div.poster table tr td{
+    width: 400px;
+}
+
+    /*Icones Sociais*/
+div.poster table tr td#IconesSociais{
+    text-align: center;
+}
+
+    /*Margem Numero*/
+div.poster table tr td#Numero p{
+    margin-left: 70px;
+}
+
+    /*Estilo Menu Superior 2*/
+table.MenuSuperior2 tr td{
+    text-align: center;
+    width: 350px;
+    height: 30px;
+}
+
+    /*Estilo Titulo*/
+h2{
+    font-family: Georgia;
+    font-size: 28px;
+    font-style: italic;
+    text-decoration: underline;
+}
+    /*---------------*/
+
+    /*Posicionamento elementos float*/
+div.Perfil1, div.Perfil2, div.Perfil3{
+    overflow: hidden;
+}
+
+div.Perfil1 div.PerfilFoto{
+    float: left;
+    margin: 0% 0% 0% 5%;
+}
+
+div.Perfil1 div.Mensagem{
+    float: right;
+    width: 60%;
+    margin: 7% 5% 0% 0%;
+}
+
+div.Perfil2 div.Mensagem{
+    float: left;
+    width: 60%;
+    margin: 8% 0% 0% 7%;    
+}
+
+div.Perfil2 div.PerfilFoto{
+    float: right;
+    margin-right: 4%;
+}
+
+div.Perfil3 div.PerfilFoto{
+    float: left;
+    margin: 0% 0% 0% 5%;
+}
+
+div.Perfil3 div.Mensagem{
+    float: right;
+    width: 60%;
+    margin: 7% 5% 0% 0%;
+}
+    /*---------------*/
