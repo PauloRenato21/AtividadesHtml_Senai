@@ -65,3 +65,23 @@ table.MenuSuperior2 tr td{
     height: 30px;
 }
     /*-------------*/
+
+    /*Estilo Titulo*/
+h2{
+    font-family: Georgia;
+    font-size: 28px;
+    font-style: italic;
+    text-decoration: underline;
+}
+    /*-----------*/
+
+    /*Estilo Servicos*/
+div.servicos p{
+    text-align: center;
+    font-size: 110%;
+}
+
+div.servicos div{
+    padding-left: 20%;
+}
+    /*---------------*/
