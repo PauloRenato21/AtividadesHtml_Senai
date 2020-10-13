@@ -64,6 +64,12 @@ table.MenuSuperior2 tr td{
     width: 350px;
     height: 30px;
 }
+
+table.MenuSuperior2 tr td p{
+    color: black;
+    font-weight: bolder;
+    text-decoration: underline;
+}
     /*-------------*/
 
     /*Estilo Titulo*/
