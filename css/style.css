@@ -8,7 +8,8 @@
 }
 
     /*Margem Página*/
-body{
+div#corpo{
+    border: 1px solid;
     margin-right: 150px;
     margin-left: 150px;
 }
