@@ -6,13 +6,16 @@
     padding: 0px;
     border: 0px;
 }
+    /*===============*/
+
 
     /*Margem Página*/
-body{
+div#corpo{
     margin-right: 150px;
     margin-left: 150px;
 }
-    /*-------------*/
+    /*=============*/
+
 
     /*Estilo Menu Suspenso*/
 table.MenuSuperior{
@@ -20,7 +23,7 @@ table.MenuSuperior{
 }
 
 table.MenuSuperior tr td{
-    width: 400px;
+    width: 550px;
     height: 30px;
     padding: 3px 0px;
     text-align: center;
@@ -39,26 +42,34 @@ table.MenuSuperior tr td a:hover{
     font-weight: bolder;
     text-decoration: underline;
 }
-    /*-------------*/
+    /*===================*/
+
 
     /*Estilo Banner*/
 div.poster table tr td{
-    width: 400px;
+    width: 550px;
 }
+    /*=============*/
+
 
     /*Icones Sociais*/
 div.poster table tr td#IconesSociais{
     text-align: center;
 }
+    /*==============*/
+
 
     /*Margem Numero*/
 div.poster table tr td#Numero p{
     margin-left: 70px;
 }
+    /*=============*/
+
 
 hr{
     border: 2px solid gray;
 }
+
 
     /*Caixa do Texto*/
 div.texto{
@@ -76,6 +87,8 @@ div.texto h2{
 p.paragrafo{
     text-indent: 3ch;
 }
+    /*==============*/
+
 
     /*Caixa da Foto*/
 div.Foto{
@@ -91,3 +104,4 @@ div.Foto img{
 div.Pai{
     overflow: hidden;
 }
+    /*============*/

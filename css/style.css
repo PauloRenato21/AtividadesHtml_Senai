@@ -6,14 +6,16 @@
     padding: 0px;
     border: 0px;
 }
+    /*==============*/
+
 
     /*Margem Página*/
 div#corpo{
-    border: 1px solid;
     margin-right: 150px;
     margin-left: 150px;
 }
-    /*-------------*/
+    /*=============*/
+
 
     /*Estilo Menu Suspenso*/
 table.MenuSuperior, table.MenuSuperior2{
@@ -21,7 +23,7 @@ table.MenuSuperior, table.MenuSuperior2{
 }
 
 table.MenuSuperior tr td{
-    width: 400px;
+    width: 550px;
     height: 30px;
     padding: 3px 0px;
     text-align: center;
@@ -40,28 +42,35 @@ table.MenuSuperior tr td a:hover, table.MenuSuperior2 tr td a:hover{
     font-weight: bolder;
     text-decoration: underline;
 }
-    /*-------------*/
+    /*===============*/
+
 
     /*Estilo Banner*/
 div.poster table tr td{
-    width: 400px;
+    width: 550px;
 }
+    /*=============*/
+
 
     /*Icones Sociais*/
 div.poster table tr td#IconesSociais{
     text-align: center;
 }
+    /*=============*/
+
 
     /*Margem Numero*/
 div.poster table tr td#Numero p{
     margin-left: 70px;
 }
+    /*=============*/
+
 
     /*Estilo Menu Superior 2*/
 table.MenuSuperior2 tr td{
-    text-align: center;
-    width: 350px;
+    width: 550px;
     height: 30px;
+    text-align: center;
 }
 
 table.MenuSuperior2 tr td p{
@@ -69,7 +78,8 @@ table.MenuSuperior2 tr td p{
     font-weight: bolder;
     text-decoration: underline;
 }
-    /*---------------*/
+    /*=====================*/
+
 
     /*Estilo Titulo*/
 h2{
@@ -78,13 +88,16 @@ h2{
     font-style: italic;
     text-decoration: underline;
 }
+    /*============*/
+
 
   /*Efeitos Fotos*/
   div.GaleriaFotos{
+    width: 880px;
     margin-left: 70px;
 }
 
 div.GaleriaFotos img{
     border-radius: 4px;
 }
-
+    /*==========*/

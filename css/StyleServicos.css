@@ -6,13 +6,16 @@
     padding: 0px;
     border: 0px;
 }
+    /*==============*/
+
 
     /*Margem Página*/
-body{
+div#corpo{
     margin-right: 150px;
     margin-left: 150px;
 }
-    /*-------------*/
+    /*=============*/
+
 
     /*Estilo Menu Suspenso*/
 table.MenuSuperior, table.MenuSuperior2{
@@ -20,7 +23,7 @@ table.MenuSuperior, table.MenuSuperior2{
 }
 
 table.MenuSuperior tr td{
-    width: 400px;
+    width: 550px;
     height: 30px;
     padding: 3px 0px;
     text-align: center;
@@ -39,30 +42,35 @@ table.MenuSuperior tr td a:hover, table.MenuSuperior2 tr td a:hover{
     font-weight: bolder;
     text-decoration: underline;
 }
-    /*-------------*/
+    /*====================*/
+
 
     /*Estilo Banner*/
 div.poster table tr td{
-    width: 400px;
+    width: 550px;
 }
+    /*=============*/
+
 
     /*Icones Sociais*/
 div.poster table tr td#IconesSociais{
     text-align: center;
 }
+    /*=============*/
+
 
     /*Margem Numero*/
 div.poster table tr td#Numero p{
     margin-left: 70px;
 }
+    /*=============*/
 
-    /*--------------*/
 
     /*Estilo Menu Superior 2*/
 table.MenuSuperior2 tr td{
-    text-align: center;
-    width: 350px;
+    width: 550px;
     height: 30px;
+    text-align: center;
 }
 
 table.MenuSuperior2 tr td p{
@@ -70,7 +78,8 @@ table.MenuSuperior2 tr td p{
     font-weight: bolder;
     text-decoration: underline;
 }
-    /*-------------*/
+    /*======================*/
+
 
     /*Estilo Titulo*/
 h2{
@@ -79,15 +88,16 @@ h2{
     font-style: italic;
     text-decoration: underline;
 }
-    /*-----------*/
+    /*=============*/
+
 
     /*Estilo Servicos*/
 div.servicos p{
-    text-align: center;
     font-size: 110%;
+    text-align: center;
 }
 
 div.servicos div{
     padding-left: 20%;
 }
-    /*---------------*/
+    /*===============*/

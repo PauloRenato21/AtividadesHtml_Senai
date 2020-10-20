@@ -7,22 +7,24 @@
     border: 0px;
     outline: none;  
 }
+    /*===============*/
+
 
     /*Margem Página*/
-body{
+div#corpo{
     margin-right: 150px;
     margin-left: 150px;
 }
-    /*-------------*/
+    /*=============*/
 
     
-/*Estilo Menu Suspenso*/
+    /*Estilo Menu Suspenso*/
 table.MenuSuperior{
     background-color: gray;
 }
 
 table.MenuSuperior tr td{
-    width: 400px;
+    width: 550px;
     height: 30px;
     padding: 3px 0px;
     text-align: center;
@@ -41,27 +43,34 @@ table.MenuSuperior tr td a:hover{
     font-weight: bolder;
     text-decoration: underline;
 }
-    /*-------------*/
+    /*====================*/
 
 
     /*Estilo Banner*/
 div.poster table tr td{
-    width: 400px;
+    width: 550px;
 }
+    /*=============*/
+
 
     /*Icones Sociais*/
 div.poster table tr td#IconesSociais{
     text-align: center;
 }
+    /*==============*/
+
 
     /*Margem Numero*/
 div.poster table tr td#Numero p{
     margin-left: 70px;
 }
+    /*=============*/
+
 
 hr{
     border: 2px solid gray;
 }
+
 
     /*Estilo Titulo*/
 h2{
@@ -70,12 +79,16 @@ h2{
     font-style: italic;
     text-decoration: underline;
 }
+    /*==============*/
+
 
     /*Efeitos Fotos*/
 div.GaleriaFotos{
+    width: 950px;
     margin-left: 70px;
 }
 
 div.GaleriaFotos img{
     border-radius: 4px;
 }
+    /*==============*/
