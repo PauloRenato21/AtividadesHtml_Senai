@@ -9,6 +9,7 @@
 body{
     /* background-color: rgb(194, 40, 40); */
 }
+
 header table{
     text-align: center;
     width: 100%;
@@ -25,14 +26,38 @@ header table tr td{
 div#geral{
     border: 2px solid;
     border-radius: 2%;
-    height: 500px;
+    height: auto;
     margin: 0% 8%;
     background-color: white;
 }
 
-div.titulo h2{
+div.formulario h2{
     text-align: center;
     font-family: 'Noto Sans JP', sans-serif;
     font-style: italic;
     margin-top: 2%;
 }
+
+div.formulario h3{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 122%;
+}
+
+div.formulario form table{
+    width: 100%;
+}
+
+div.formulario form table tr td label{
+    font-size: 120%;
+}
+
+div.formulario table tr td input{
+    border: 1px solid;
+    width: 100%;
+    height: 30px;
+    margin-top: 1%;
+    margin-bottom: 3%;
+    outline: none;
+}
+
