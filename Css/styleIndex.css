@@ -27,7 +27,7 @@ div#geral{
     border: 2px solid;
     border-radius: 2%;
     height: auto;
-    margin: 0% 8%;
+    margin: 0% 20%;
     background-color: white;
 }
 
@@ -50,14 +50,27 @@ div.formulario form table{
 
 div.formulario form table tr td label{
     font-size: 120%;
+    margin-left: 1%;
 }
 
 div.formulario table tr td input{
     border: 1px solid;
-    width: 100%;
+    width: 97%;
     height: 30px;
     margin-top: 1%;
     margin-bottom: 3%;
+    margin-left: 1%;
     outline: none;
 }
 
+button{
+    border: 1px solid;
+    border-radius: 5%;
+    padding: 1% 1%;
+    outline: none;
+    cursor: pointer;
+}
+
+button.bts{
+    margin-left: 40%;
+}
