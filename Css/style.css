@@ -1,0 +1,17 @@
+@charset "utf-8";
+
+*{
+    border: 0px;
+    margin: 0px;
+    padding: 0px;
+}
+
+h2{
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+hr{
+    border: 1px solid lightgray;
+    width: 50%;
+}
