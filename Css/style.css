@@ -6,10 +6,6 @@
     padding: 0px;
 }
 
-body{
-    /* background-color: rgb(194, 40, 40); */
-}
-
 header table{
     text-align: center;
     width: 100%;
@@ -40,8 +36,8 @@ div.formulario h2{
 
 div.formulario h3{
     text-align: center;
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 122%;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 125%;
 }
 
 div.formulario form table{
@@ -64,13 +60,42 @@ div.formulario table tr td input{
 }
 
 button{
-    border: 1px solid;
+    border: 1px solid black;
     border-radius: 5%;
     padding: 1% 1%;
+    margin-top: 2%;
     outline: none;
     cursor: pointer;
 }
 
 button.bts{
     margin-left: 40%;
+}
+
+button.bts:hover{
+    border-color: red;
+    background-color: red;
+    color: white;
+}
+
+button:hover{
+    border-color: green;
+    background-color: green;
+    color: white;
+}
+
+    /*Aplicar quando a tela chegar a 600px*/
+@media screen and (max-width: 600px) {
+    button.bts{
+        margin-left: 30%;
+    }  
+}
+    /*====================================*/
+
+div#resultado{
+    text-align: center;
+    margin: 2% 0%;
+    padding: 3% 0%;
+    font-family: Verdana;
+    font-weight: bolder;
 }
