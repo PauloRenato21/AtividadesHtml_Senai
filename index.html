@@ -15,19 +15,27 @@
         
         <form>
             <label>(R) vermelho:</label>
-            <input type="range" name="red" id="red">
+            <input type="range" name="red" id="red" max="250" min="0" step="1" value="0"/>
 
             <br/>
             <br/>
 
             <label>(G) verde:</label>
-            <input type="range" name="green" id="green">
+            <input type="range" name="green" id="green" max="250" min="0" step="1" value="0"/>
 
             <br/>
             <br/>
 
-            <label>(B) azul:</label>
-            <input type="range" name="blue" id="blue">
+            <label>(B) azul:</label> 
+            <input type="range" name="blue" id="blue" max="250" min="0" step="1" value="250"/>
+
+            <br/>
+            <br/>
+
+            <input type="text" id="resultado">
+        
         </form>
+
+        <script src="js/script.js"></script>
     </body>
 </html>
