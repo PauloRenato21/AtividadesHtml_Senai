@@ -5,3 +5,41 @@
     border: 0px;
     padding: 0px;
 }
+
+body{
+    background-color: lightskyblue;
+}
+
+h1{
+    margin-top: 3%;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 250%;
+    color: white;
+}
+
+div#geral{
+    border-radius: 20px;
+    background-color: white;
+    width: 50%;
+    margin-left: 25%;
+    text-align: center;
+}
+
+div#geral label{
+    margin-top: 30%;
+    font-size: 120%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+input{
+    border: 1px solid;
+    outline: none;
+    width: auto;
+    height: 20px;
+}
+
+input#adicionar{
+    width: 10%;
+    height: 23px;
+}
