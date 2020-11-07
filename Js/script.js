@@ -19,15 +19,18 @@ function condicao1(){
     let infratormax = Number((document.getElementById("infrator")).value)
     let maxvia = Number((document.getElementById("max")).value)
     let pessoa = String((document.getElementById('nome')).value)
+    let cnh = String((document.getElementById("cnh")).value)
 
     if(infratormax > maxvia){
 
         if(infratormax > maxvia && infratormax <= (maxvia + 7)){
             document.getElementById('resultado').innerText = `Advertência
             
-            TRANSITAR EM VELOCIDADE SUPERIOR A MAXIMA PERMITIDA EM ATE 07
+            TRANSITAR EM VELOCIDADE SUPERIOR A MAXIMA PERMITIDA EM ATE 07 Km/H
 
             Condutor: ${pessoa}
+
+            CNH: ${cnh}
             
             Pontos na carteira: 02
 
@@ -49,6 +52,7 @@ function condicao2(){
     let infratormax = Number((document.getElementById("infrator")).value)
     let maxvia = Number((document.getElementById("max")).value)
     let pessoa = String((document.getElementById('nome')).value)
+    let cnh = String((document.getElementById("cnh")).value)
 
     let result = maxvia * 20 / 100;
     let result2 = maxvia * 50 /100;
@@ -58,9 +62,11 @@ function condicao2(){
         
         Infração  Grave
         
-        TRANSITAR EM VELOCIDADE SUPERIOR A MAXIMA PERMITIDA EM ATE 20
+        TRANSITAR EM VELOCIDADE SUPERIOR A MAXIMA PERMITIDA EM ATE 20 Km/H
         
         Condutor: ${pessoa}
+
+        CNH: ${cnh}
 
         Pontos na carteira: 04
 
@@ -73,9 +79,11 @@ function condicao2(){
 
         Infração Gravíssima
 
-        TRANSITAR EM VELOCIDADE SUPERIOR A MAXIMA PERMITIDA EM MAIS DE 20 ATE 50 
+        TRANSITAR EM VELOCIDADE SUPERIOR A MAXIMA PERMITIDA EM MAIS DE 20 ATE 50 Km/H 
 
         Condutor: ${pessoa}
+
+        CNH: ${cnh}
 
         Pontos na carteira: 05
 
@@ -90,6 +98,7 @@ function condicao3(){
     let infratormax = Number((document.getElementById("infrator")).value)
     let maxvia = Number((document.getElementById("max")).value)
     let pessoa = String((document.getElementById('nome')).value)
+    let cnh = String((document.getElementById("cnh")).value)
 
     let result = maxvia * 50 /100;
 
@@ -100,9 +109,11 @@ function condicao3(){
             
             Penalidade de suspensão do direito de dirigir
             
-            Transitar em Velocidade Superior a Máxima Permitida em mais de 50 
+            Transitar em Velocidade Superior a Máxima Permitida em mais de 50 Km/H
 
             Condutor: ${pessoa}
+
+            CNH: ${cnh}
 
             Pontos na carteira: 07
             
